@@ -26,6 +26,47 @@ html {
   }
 }
 
+.jumbotron-two {
+  background-image: url(https://dogsbestlife.com/wp-content/uploads/2021/02/cats-vs.-dogs-group-scaled.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  min-height: 800px;
+  max-height: 100px;
+  max-width: 2000px;
+  background-position: center;
+}
+
+@media screen and (max-width:700px){
+  .jumbotron-two {
+    max-width: 600px;
+    min-height: 550px;
+    background-image: none;
+  }
+}
+
+
+.jumbotron-three {
+  background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=face&w=2000&h=1333&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2018%2F01%2Fdogs-cats.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  min-height: 800px;
+  max-height: 100px;
+  max-width: 2000px;
+  background-position: center;
+}
+
+@media screen and (max-width:700px){
+  .jumbotron-three {
+    max-width: 600px;
+    min-height: 550px;
+    background-image: none;
+  }
+}
+
+
+
+
+
 .jumbo-copy {
   background-color: #3E7B77;
   color: white;
@@ -73,6 +114,10 @@ html {
   color: white;
   font-size: 20px;
 /*text color of nav*/
+}
+
+.nav-link:hover {
+  color: pink;
 }
 
 
@@ -144,12 +189,11 @@ html {
 
 .project-summary {
 
-  height: 300px;
-  border-style: solid;
-  border-color: #B93E88;
-  border-width: 50px;
-  margin-bottom: 80px;
-  margin-top: 200px;
+  height: 250px;
+  background-color: #FCBB42;
+  margin-bottom: 50px;
+
+
 }
 @media screen and (max-width:1100px) {
   .project-summary {
