@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <!--Bootstrap nav component-->
     <nav class="navbar navbar-expand-lg navbar-custom bg-custom">
       <a class="navbar-brand" href="#">MBdesign</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +26,7 @@
         </ul>
       </div>
     </nav>
-
+    <!--Bootstrap jumbotron component with columns RWD-->
   <div class="container-fluid col-lg-12 col-md-12 col-sm-12">
     <div class="jumbotron">
       <div class="jumbo-copy">
@@ -65,13 +66,15 @@
   </div>
 </section>
 
-<section>
-  <div class="about-ap-section">
-    <h3 class="content-headings-h3">About Angel Paws</h3>
-      <p class="content-paragraphs">Angel Paw is a non-profit animal rescue and adoption service in Salt Lake City, Utah. Angel paws provides many services such as adoption, veterinary care, rehabilitation, and education services. Angel Paws Utah cares a lot about their animals and we wanted to help show the people how much they care within our website redesign. </p>
+    <!--Bootstrap jumbotron component with columns RWD-->
+<div class="container-fluid col-lg-12 col-md-12 col-sm-12">
+  <div class="jumbotron">
+    <div class="jumbo-copy">
+      <h1 class="display-4">About Angel Paws</h1>
+      <p class="lead">Angel Paws is a non-profit animal rescue and adoption service located in Salt Lake City, Utah.</p>
+      <hr class="my-4">
     </div>
-</div>
-</section>
+  </div>
 
 <section>
   <div class="project-summary">
@@ -96,36 +99,288 @@
 </section>
 
 
-<section>
-  IDEATION
-</section>
 
-<section>
-  INTERVIEWS
-</section>
 
-<section>
-  WIREFRAME/LO-FI
-</section>
 
-<section>
-  TESTING
-</section>
 
-<section>
- PROTO ITERATIONS
-</section>
 
-<section>
-  UI STYLE
-</section>
 
-<section>
-  FINAL PROTOTYPE
-</section>
-<section>
-  CONCLUSION
-</section>
+
+    <!--Bootstrap accordian component-->
+
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          User Persona
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse.show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+         <p class="acc-p">Our User Persona helped us visualize and empathize with our potential user.</p>
+         <img class="acc-img" src="images/user-persona.png">
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          User Interviews
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        <p class="acc-p">After identifying our potential users, our team set out to conduct interviews.
+
+          We crafted an interview plan which focused on questions like:
+
+
+          “Have you adopted an animal in the past? How did you feel about that experience?”
+
+
+          “What caused you to bring a pet into your life?”
+
+
+          “What type of information would you like to know about a pet before adopting?”
+
+
+          “Have you used the internet to search for adoptable pets in the past? What did you like and dislike?
+          After conducting interveiws we gained valuable insights into the way our users thought when adopting a pet. These insights really helped us narrow down what our users wanted, what their frustrations were, and how we could be help them during the adoption process.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Ideation
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <h4 class="acc-head">Affinity Diagram</h4>
+        <p class="acc-p">The ideation phase was a lot of fun. We organized our user insights into an affinity diagram. We then began organizing our observations and ideas along with user insights from our user interviews. Organizing this information using the “ I like, I wish, what if”.</p>
+
+        <img class="acc-img" src="images/aff-diagram.png">
+      
+        <h4 class="acc-head">"I Like, I Wish, What If?" Method</h4>
+        <p class="acc-p">The ideation phase was a lot of fun. We organized our user insights into an affinity diagram. We then began organizing our observations and ideas along with user insights from our user interviews. Organizing this information using the “ I like, I wish, what if”.</p>
+        <img class="acc-img" src="images/like-wish-whatif.png">
+
+        <h4 class="acc-head">Feature Prioritization</h4>
+        <p class="acc-p">This method helped organize our favorite ideas by high impact and low impact for the user and the company. This helped us decide which feautures were most importnant to implement into our design </p>
+        <img class="acc-img" src="images/feat-prior.png">
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Value Proposition
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <h4 class="acc-head">Value Proposition Template</h4>
+        <p class="acc-p">We defined our value proposition using this diagram. This helped us narrow down Angel Paws' selling point. This was important to identify so we could iterate our design and better serve Angel Paws and their users.</p>
+        <img class="acc-img" src="images/v-prop.png">
+      </div>
+
+
+          <!--Bootstrap jumbotron component with columns RWD-->
+      <div class="container-fluid col-lg-12 col-md-12 col-sm-12">
+        <div class="jumbotron">
+          <div class="jumbo-copy">
+            <h1 class="display-4">Problem Statement</h1>
+            <p class="lead">Users struggle to navigate and understand the main purpose of Angel Paws' website. It is unclear how to donate, volunteer, and adopt. This confusion results in users leaving the website frustrated, confused, and unable participate in Angel Paws' non-profit organization. </p>
+            <hr class="my-4">
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+          <!--Bootstrap cards-->
+          <section>
+            <div class="project-summary">
+              <h3 class="content-headings-h3">Wireframe Iterations</h3>
+              <p class="content-paragraphs">Below we have our lo-fidelity, mid, and hi-fidelity wireframes.
+              </p>
+            </div>
+          </section>
+
+
+        <div class="row">
+          <div class="card" style="width: 18rem;">
+            <img src="images/v0-wf.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Our first digital wireframe, we had the vision for the basic layout which created an obvious CTA for the user as well as organized content into a heirarchy.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="images/v1-wf.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is our first iteration of our original digital wireframe. We chose to add gray scale photos and create a more realistic mid-fidelity prototype. We also edited the forms on the adoption process page for a more engaging user experience.</p>
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="card" style="width: 18rem;">
+              <img src="images/v2-wf.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">This is our final hi-fidelity wireframe. This includes the UI style we chose to go with, a few iterations also including larger typography, location of the CTA button, and more changes to the adoption process form for better user engagement</p>
+              </div>
+            </div>
+            </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="container-fluid col-lg-12 col-md-12 col-sm-12">
+              <div class="project-summary">
+                <h3 class="content-headings-h3">Mobile Hi-Fidelity Wireframes</h3>
+                <p class="content-paragraphs">Here is our Final Prototype Overview and link to our figma prototype.
+                </p>
+              </div>
+            </div>
+
+                      <!--Bootstrap cards-->
+
+        <div class="row">
+          <div class="card" style="width: 18rem;">
+            <img src="images/final-wf1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Home Screen</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="images/final-wf2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Adoption Gallery</p>
+            </div>
+          </div>
+        
+          
+          <div class="row">
+            <div class="card" style="width: 18rem;">
+              <img src="images/final-wf3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Animal Bio Screen</p>
+              </div>
+            </div>
+            </div>
+            
+                  
+            
+
+
+
+
+
+
+
+
+            <div class="container-fluid col-lg-12 col-md-12 col-sm-12">
+              <div class="project-summary">
+                <h3 class="content-headings-h3">Tablet Hi-Fidelity Wireframes</h3>
+                <p class="content-paragraphs">Here is our Final Prototype Overview and link to our figma prototype.
+                </p>
+              </div>
+            </div>
+
+
+
+            <div class="row">
+              <div class="card" style="width: 18rem;">
+                <img src="images/final-tab1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Home Screen</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="images/final-tab2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Adoption Gallery</p>
+                </div>
+              </div>
+            
+              <div class="row">
+                <div class="card" style="width: 18rem;">
+                  <img src="images/final-tab3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Animal Bio Screen</p>
+                  </div>
+                </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <div class="container-fluid col-lg-12 col-md-12 col-sm-12">
+                  <div class="project-summary">
+                    <h3 class="content-headings-h3">Desktop Hi-Fidelity Wireframes</h3>
+                    <p class="content-paragraphs">Here is our Final Prototype Overview and link to our figma prototype.
+                    </p>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="card" style="width: 18rem;">
+                    <img src="images/final-d1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Home Screen</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="images/final-d2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Adoption Gallery</p>
+                    </div>
+                  </div>
+                
+                  <div class="row">
+                    <div class="card" style="width: 18rem;">
+                      <img src="images/final-d3.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">Animal Bio Screen</p>
+                      </div>
+                    </div>
+                    </div>
+
+
+
+
+
+
+
+
+
 
   </body>
 </html>

@@ -3,7 +3,7 @@ html {
 }
 
 .bg-custom {
-  background-color: lightblue;
+  background-color: #B93E88;
 }
 
 
@@ -27,12 +27,14 @@ html {
 }
 
 .jumbo-copy {
-  background-color: white;
+  background-color: #3E7B77;
+  color: white;
   padding: 40px;
   max-width: 450px;
   text-align: center;
   margin-left: 100px;
   margin-top: 100px;
+  border-style: solid;
 
 }
 
@@ -68,7 +70,7 @@ html {
 }
 
 .nav-link {
-  color: purple;
+  color: white;
   font-size: 20px;
 /*text color of nav*/
 }
@@ -80,10 +82,13 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 50px 50px 50px 50px 50px 50px;
-  background-color: pink;
+  color: black;
   height: 350px;
   text-align: center;
   justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+
   
 }
 
@@ -101,6 +106,7 @@ html {
 }
 
 .proj-details-headings {
+  color: #B93E88;
   margin-bottom: 40px;
   margin-top: 40px;
   font-size: 30px;
@@ -112,16 +118,7 @@ html {
   
 }
 
-.about-ap-section {
-  background-color: aquamarine;
-  height: 300px;
-}
-@media screen and (max-width:1100px) {
-  .about-ap-section {
-    min-height: 400px;
-  }
-  
-}
+
 
 .content-headings-h3 {
   text-align: center;
@@ -135,7 +132,6 @@ html {
   justify-items: center;
   font-size: 20px;
   text-align: center;
-  background-color: yellow;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -147,8 +143,13 @@ html {
 }
 
 .project-summary {
-  background-color: lightsalmon;
+
   height: 300px;
+  border-style: solid;
+  border-color: #B93E88;
+  border-width: 50px;
+  margin-bottom: 80px;
+  margin-top: 200px;
 }
 @media screen and (max-width:1100px) {
   .project-summary {
@@ -160,7 +161,6 @@ html {
 .prob-sol {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: aqua;
   text-align: center;
   height: 400px;
 }
@@ -171,7 +171,6 @@ html {
 }
 
 .prob-sol-p {
-  background-color: aliceblue;
   padding: 40px;
 
 
@@ -187,3 +186,46 @@ html {
 
 
 
+
+
+
+
+
+
+
+.acc-head {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.acc-p {
+  font-size: 20px;
+}
+
+
+.acc-img {
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+
+
+@media screen and (max-width:800px) {
+  .acc-img {
+    max-width: 450px;
+    place-items: center;
+    
+  
+  }
+  
+}
+
+.row {
+  gap: 100px;
+  justify-content: center;
+}
+
+.card-text {
+  font-weight: bold;
+  text-align: center;
+}
