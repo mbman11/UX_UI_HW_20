@@ -274,3 +274,38 @@ html {
   font-weight: bold;
   text-align: center;
 }
+
+.conclusion {
+
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #B93E88;
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+
+}
+
+.footlogo {
+  font-size: 40px;
+
+  
+}
+
+.footer-email {
+  font-size: 20px;
+  color: white;
+
+
+}
+@media screen and (max-width:700px) {
+  .footer-email {
+    margin-right: 20px;
+    padding-top: 20px;
+  }
+  
+}
